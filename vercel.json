@@ -1,18 +1,18 @@
 {
   "builds": [
     {
-      "src": /main.py",
+      "src": Code/main.py",
       "use": "@vercel/python"
     }
   ],
   "rewrites": [
     {
       "source": "/image.png",
-      "destination": "code/main.py"
+      "destination": "Code/main.py"
     },
     {
       "source": "/(.*)",
-      "destination": "code/main.py"
+      "destination": "Code/main.py"
     }
   ]
 }
