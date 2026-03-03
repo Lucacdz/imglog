@@ -1,13 +1,13 @@
 {
   "builds": [
     {
-      "src": /main.py",
+      "src": main.py",
       "use": "@vercel/python"
     }
   ],
   "rewrites": [
     {
-      "source": "/image.png",
+      "source": "image.png",
       "destination": "main.py"
     },
     {
